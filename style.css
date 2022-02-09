@@ -11,7 +11,7 @@ body {
 
 .wrapper {
   width: 100%;
-  min-width: 960px;
+  max-width: 960px;
   margin: 0 auto;
 }
 
@@ -21,20 +21,20 @@ body {
 
 .box {
   height: 100px;
-  min-width: 100px;
+  width: 320px;
 }
 
 .one {
   background: pink;
-  flex-grow: 2;
+  flex-shrink: 4;
 }
 
 .two {
   background: lightblue;
-  flex-grow: 3;
+  flex-shrink: 5;
 }
 
 .three {
   background: rgb(123, 221, 123);
-  flex-grow: 1;
+  flex-shrink: 6;
 }
