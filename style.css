@@ -1,1 +1,37 @@
+* {
+  margin: 0%;
+  padding: 0;
+  box-sizing: border-box;
+}
 
+body {
+  background: #eee;
+  font-family: verdana;
+}
+
+.wrapper {
+  width: 100%;
+  min-width: 960px;
+  margin: 0 auto;
+}
+
+.flex-container {
+  display: flex;
+}
+
+.box {
+  height: 100px;
+  min-width: 100px;
+}
+
+.one {
+  background: pink;
+}
+
+.two {
+  background: lightblue;
+}
+
+.three {
+  background: rgb(123, 221, 123);
+}
