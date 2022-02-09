@@ -26,12 +26,15 @@ body {
 
 .one {
   background: pink;
+  flex-grow: 2;
 }
 
 .two {
   background: lightblue;
+  flex-grow: 3;
 }
 
 .three {
   background: rgb(123, 221, 123);
+  flex-grow: 1;
 }
